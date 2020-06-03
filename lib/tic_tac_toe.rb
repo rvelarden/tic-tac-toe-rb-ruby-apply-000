@@ -119,8 +119,8 @@ puts "Please enter 1-9:"
   user_input = gets.strip
   index = input_to_index(user_input)
  while !over?(board)
- turn(board)
- 
+  turn(board)
+ end 
 # counter = 1
 # while counter < 11
 #   puts counter
