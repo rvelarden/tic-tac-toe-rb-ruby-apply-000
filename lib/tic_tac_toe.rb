@@ -125,7 +125,7 @@ if winner(board)
   puts "Congratulations, #{winner(board)}!"
 else 
 puts "Cats's Game"  
-
+end 
 
 display_board(board)
 end 
