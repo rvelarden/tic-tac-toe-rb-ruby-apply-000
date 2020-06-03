@@ -127,5 +127,4 @@ else
 puts "Cats's Game"  
 end 
 
-display_board(board)
 end 
