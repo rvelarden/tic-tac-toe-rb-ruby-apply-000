@@ -118,7 +118,12 @@ def play(board)
 puts "Please enter 1-9:"
   user_input = gets.strip
   index = input_to_index(user_input)
- while 
+ while user_input
+# counter = 1
+# while counter < 11
+#   puts counter
+#   counter = counter + 1
+end
 end 
 display_board(board)
 end 
