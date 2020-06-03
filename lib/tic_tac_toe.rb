@@ -116,8 +116,8 @@ end
 def play(board)
   
 puts "Please enter 1-9:"
-  turn = gets.strip
-  index = input_to_index(board)
+  user_input = gets.strip
+  index = input_to_index(user_input)
   if turn(board) 
   else 
     over?(board)
