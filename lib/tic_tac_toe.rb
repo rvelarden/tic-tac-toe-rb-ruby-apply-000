@@ -125,7 +125,6 @@ def play(board)
 # while counter < 11
 #   puts counter
 #   counter = counter + 1
-end
-end 
+
 display_board(board)
 end 
