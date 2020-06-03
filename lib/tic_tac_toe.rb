@@ -121,10 +121,11 @@ def play(board)
  while !over?(board)
   turn(board)
  end 
-# counter = 1
-# while counter < 11
-#   puts counter
-#   counter = counter + 1
+if winner(board)
+  puts ""
+else 
+"Romina's Game"  
+
 
 display_board(board)
 end 
