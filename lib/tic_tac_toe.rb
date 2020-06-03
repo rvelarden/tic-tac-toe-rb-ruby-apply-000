@@ -113,14 +113,14 @@ def winner(board)
   end  
 end
 
-# def play(board)
+def play(board)
   
-# puts "Please enter 1-9:"
-#   turn = gets.strip
-#   index = input_to_index(board)
-#   if turn(board) 
-#   else 
-#     over?(board)
-# end 
-# display_board(board)
-# end 
+puts "Please enter 1-9:"
+  turn = gets.strip
+  index = input_to_index(board)
+  if turn(board) 
+  else 
+    over?(board)
+end 
+display_board(board)
+end 
